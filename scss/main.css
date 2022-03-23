@@ -1,0 +1,133 @@
+.nav-right-align {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 0;
+}
+
+.navber-custom {
+  font-family: "Rubik", sans-serif;
+}
+
+.my-name {
+  color: #6483DE !important;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.nav-link-custom {
+  color: #6483DE !important;
+  font-weight: bold;
+  padding-right: 0.75rem !important;
+  padding-left: 0 !important;
+}
+
+.nav-link-btn {
+  background: #2196F3;
+  color: #ffffff !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link-custom {
+    padding-left: 0 !important;
+  }
+
+  .nav-link-btn {
+    margin-left: 0;
+  }
+}
+.hero {
+  background: #F9FCFE;
+  padding: 100px 0;
+}
+.hero .line-top {
+  color: #2196F3;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.hero h2 {
+  color: #6483DE;
+  font-size: 45px;
+}
+.hero h1 {
+  color: #6483DE;
+  font-size: 55px;
+  font-weight: 500;
+}
+.hero p {
+  font-size: 22px;
+  width: 100%;
+  max-width: 550px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.hero ul {
+  list-style-type: none;
+  padding: 0;
+}
+.hero ul li {
+  display: inline-block;
+}
+.hero ul li a.hire-btn {
+  color: #ffffff;
+  background: #2196F3;
+  padding: 18px 50px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 40px;
+  border: 1px solid #2196F3;
+  transition: 0.3s;
+}
+.hero ul li a.hire-btn:hover {
+  background: transparent;
+  color: #2196F3;
+  border: 1px solid #2196F3;
+}
+.hero ul li a.social-btn {
+  color: #2196F3;
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+}
+.hero ul li a.social-btn:hover {
+  background: #2196F3;
+  color: #ffffff;
+  border: 1px solid #2196F3;
+}
+.hero img {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero .hire-btn {
+    padding: 10px 25px !important;
+  }
+  .hero .social-btn {
+    padding: 10px !important;
+    width: 18px;
+    display: inline-block;
+    text-align: center;
+  }
+  .hero img {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
