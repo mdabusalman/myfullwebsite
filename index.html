@@ -176,10 +176,16 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.0711581822825!2d90.38752811447551!3d24.758749255425236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564f20db960d11%3A0x7707fc65b079dc0d!2z4Ka44Ka-4Kao4KaV4Ka_4Kaq4Ka-4Kec4Ka-IOCmqOCmpOCngeCmqCDgppzgpr7gpq7gp4cg4Kau4Ka44Kac4Ka_4Kam!5e0!3m2!1sbn!2sbd!4v1647503976263!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
           <div class="col-lg-6">
-            <form action="#" method="post">
-              <input type="text" name="full_name" placeholder="Full Name">
-              <input type="email" name="email" placeholder="Email Address">
-              <textarea name="your_message" placeholder="Your Message"></textarea>
+            <form action="http://test.avantibd.com/email/index.php" method="post">
+              <input type="hidden" name="site_url" value="https://mdabusalman.github.io/myfullwebsite/">
+              <input type="hidden" name="to_email" value="mdabusalman0102@gmail.com">
+              <input type="hidden" name="subject" value="User Message">
+
+              <input type="text" name="name" placeholder="Full Name">
+              <input type="email" name="from_email" placeholder="Email Address">
+              <input type="text" name="mobile" placeholder="Mobile Number">
+              <input type="text" name="skype_id" placeholder="Skype/Whatsapp/Imo">
+              <textarea name="message" placeholder="Your Message" style="height: 200px;"></textarea>
               <button>Send Message</button>
             </form> 
           </div>
